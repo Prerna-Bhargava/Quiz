@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quizo App</title>
+    <!-- cdn for bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body>
+
+    <!-- div for score container(Initially hide) -->
+    <div class='score hide'>
+        <p></p>
+        <button class='start-again hide'>Start Again</button>
+    </div>
+
+    <!-- div for introduction container -->
+    <div class='intro'>
+        <h1>Welcome to MyQuizo App</h1>
+        <h2>Play around and have fun!</h2>
+        <button class='start'>
+            Start Quiz
+        </button>
+    </div>
+    <!-- Container for Quiz questions  -->
+    <div class='QuizContainer hide'>
+        <div id='clock'>
+10
+        </div>
+        <div class='Question'>
+
+        </div>
+
+        <div class='options'>
+            <button class='width' id='a'></button>
+            <button class='width' id='b'></button>
+            <button class='width' id='c'></button>
+            <button class='width' id='d'></button>
+        </div>
+        <button class='next'>Next</button>
+
+    </div>
+
+    <!-- cdn for Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

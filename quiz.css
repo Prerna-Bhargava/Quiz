@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(195, 195, 255);
+}
+.hide{
+    display:none;
+}
+h1,h2{
+    color:rgb(99, 99, 243);
+    line-height: 1.5;
+}
+.intro{
+    margin:10vw; 
+}
+.start, .start-again,.Submit{
+    margin: 10%;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(99, 99, 243);
+}
+.QuizContainer{
+    width:40rem;
+    background-color: rgb(99, 99, 243);
+    border-radius: 10px;
+    margin: 10%;
+    padding:2vw;
+}
+.Question{
+    font-size: 20px;
+    padding-bottom:2vw;
+    padding-top: 1.5vw;
+    color: white;
+    text-align: center;
+}
+.width{
+    width:40%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    padding:10px;
+}
+
+.next{
+    margin:10px;
+    padding: 5px 15px 5px 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+.score{
+    width:600px;
+    margin:4%;
+    margin-top: 10vw;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.score p{
+    background-color: rgb(106, 106, 236);
+    height:220px;
+    padding:10%;
+}
+.start-again{
+    background-color: white;
+    border: 2px solid rgb(106, 106, 236);
+    font-size: 20px;
+    margin:30px;
+    color:rgb(106, 106, 236);
+    
+
+}
+#clock{
+    background-color:white;
+    border-radius: 100%;
+    width:50px;
+    height:40px;
+    padding-top: 5px;
+    float:right;
+}
+.correct{
+    background-color: greenyellow;
+}
+.wrong{
+    background-color: red;
+}
+.Submit{
+    margin:27%;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.selected{
+    background-color:rgb(97, 247, 97) ;
+    color:white;
+    border: 1px solid green;
+}
